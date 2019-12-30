@@ -1,0 +1,122 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dropbox.core.examples.android"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:7:22-77
+14
+15    <application
+15-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:9:5-51:19
+16        android:allowBackup="false"
+16-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:10:9-36
+17        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+17-->[com.android.support:support-compat:28.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\92313ff2ea7b9329140a7034504b11e4\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+18        android:debuggable="true"
+19        android:icon="@drawable/dropbox_big"
+19-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:11:9-45
+20        android:label="@string/app_name"
+20-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:12:9-41
+21        android:supportsRtl="false"
+21-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:15:9-36
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:14:9-40
+24        <activity
+24-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:16:9-23:20
+25            android:name="com.dropbox.core.examples.android.UserActivity"
+25-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:17:13-41
+26            android:label="@string/app_name" >
+26-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:18:13-45
+27            <intent-filter>
+27-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:19:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:20:17-69
+28-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:20:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:21:17-77
+30-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:24:9-26:60
+34            android:name="com.dropbox.core.examples.android.FilesActivity"
+34-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:25:13-42
+35            android:label="@string/title_activity_files" />
+35-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:26:13-57
+36        <activity
+36-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:27:9-41:20
+37            android:name="com.dropbox.core.android.AuthActivity"
+37-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:28:13-65
+38            android:configChanges="orientation|keyboard"
+38-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:29:13-57
+39            android:launchMode="singleTask" >
+39-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:30:13-44
+40            <intent-filter>
+40-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:31:13-40:29
+41
+42                <!-- Change this to be db- followed by your app key -->
+43                <data android:scheme="db-hlb9opd8fjnn10r" />
+43-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:34:17-61
+43-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:34:23-58
+44
+45                <action android:name="android.intent.action.VIEW" />
+45-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:36:17-69
+45-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:36:25-66
+46
+47                <category android:name="android.intent.category.BROWSABLE" />
+47-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:38:17-78
+47-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:38:27-75
+48                <category android:name="android.intent.category.DEFAULT" />
+48-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:39:17-76
+48-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:39:27-73
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:42:9-50:20
+52            android:name="com.dropbox.core.examples.android.internal.OpenWithActivity"
+52-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:43:13-54
+53            android:label="@string/title_activity_openwith" >
+53-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:44:13-60
+54            <intent-filter>
+54-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:45:13-49:29
+55                <action android:name="com.dropbox.android.intent.action.DBXC_EDIT" />
+55-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:46:17-85
+55-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:46:25-83
+56
+57                <category android:name="android.intent.category.DEFAULT" />
+57-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:39:17-76
+57-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:39:27-73
+58
+59                <data android:mimeType="text/plain" />
+59-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:34:17-61
+59-->C:\Users\Admin\Desktop\dropbox-sdk-java-master\examples\android\src\main\AndroidManifest.xml:48:23-52
+60            </intent-filter>
+61        </activity>
+62
+63        <provider
+63-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9cfa4b47f732a8e2e21cbf5e95eda6e4\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+64            android:name="com.squareup.picasso.PicassoProvider"
+64-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9cfa4b47f732a8e2e21cbf5e95eda6e4\picasso-2.71828\AndroidManifest.xml:9:13-64
+65            android:authorities="com.dropbox.core.examples.android.com.squareup.picasso"
+65-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9cfa4b47f732a8e2e21cbf5e95eda6e4\picasso-2.71828\AndroidManifest.xml:10:13-72
+66            android:exported="false" />
+66-->[com.squareup.picasso:picasso:2.71828] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9cfa4b47f732a8e2e21cbf5e95eda6e4\picasso-2.71828\AndroidManifest.xml:11:13-37
+67    </application>
+68
+69</manifest>

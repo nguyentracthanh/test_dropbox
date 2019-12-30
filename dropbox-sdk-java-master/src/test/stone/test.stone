@@ -1,0 +1,108 @@
+namespace test
+
+union_closed ParentUnion
+    alpha
+    beta
+
+union_closed ChildUnion extends ParentUnion
+    delta
+    gamma
+    omega
+
+struct Uninitialized
+    reason UninitializedReason
+    session_id String
+
+union_closed UninitializedReason
+    bad_request
+    bad_header String
+    bad_feels BadFeel
+
+union_closed BadFeel
+    meh
+    blah
+
+union CatchAllUnion extends ParentUnion
+    one
+    two
+
+union_closed ValueUnion extends ParentUnion
+    too_much Int32
+    too_little Int32
+    just_right
+
+union NestingUnion
+    simple ChildUnion
+    value ValueUnion
+    catch_all CatchAllUnion
+
+struct Pet
+    union
+        dog Dog
+        cat Cat
+        fish Fish
+
+    name String
+        "Used in :route:`test_route:2`"
+    born Timestamp("%Y-%m-%dT%H:%M:%SZ")?
+
+struct Dog extends Pet
+    breed String
+    size DogSize?
+
+struct Cat extends Pet
+    breed String?
+    indoor Boolean?
+
+struct Fish extends Pet
+    species String
+    tank_size TankSize
+
+union_closed DogSize
+    lap
+    small
+    medium
+    large
+
+union TankSize
+    bowl
+    medium Dimensions
+    aquarium String?
+
+struct Dimensions
+    width UInt32
+    height UInt32
+
+route test_route(Void, Void, Void)
+    ":route:`test_route:2`"
+
+route test_route:2 (Pet, Void, ParentUnion)
+
+route test_upload(Uninitialized, Void, Void)
+    attrs
+        style = "upload"
+
+route test_upload:2 (Dog, Void, ParentUnion)
+    attrs
+        style = "upload"
+
+route test_upload:3 (Dog, Void, ParentUnion)
+    attrs
+        style = "upload"
+        auth = "app, user"
+
+route test_download(Dog, Fish, Void)
+    attrs
+        host = "content"
+        style = "download"
+
+route test_download:2 (Uninitialized, Fish, ParentUnion)
+    attrs
+        host = "content"
+        style = "download"
+
+struct DefaultFloat
+    duration Float64(min_value=60, max_value=14400) = 14400
+
+struct WithByte
+    field1 Bytes

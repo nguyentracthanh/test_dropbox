@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a19fad5-043e-4cfa-b10e-67806714ff81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Dropbox2/app/src/main/res/drawable/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dropbox2/app/src/main/res/drawable/db_dev.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dropbox2/app/src/main/res/drawable/files.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DropboxIntegration_CRUD_Android-master/DropboxIntegration_CRUD_Android-master/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/java/vn/edu/usth/codeme/BaseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/java/vn/edu/usth/codeme/database/RealmContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/java/vn/edu/usth/codeme/model/request/LoginSendForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/java/vn/edu/usth/codeme/model/request/RegisterSendForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/java/vn/edu/usth/codeme/model/response/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/java/vn/edu/usth/codeme/model/response/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/java/vn/edu/usth/codeme/network/API.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/java/vn/edu/usth/codeme/network/RetrofitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/java/vn/edu/usth/codeme/network/RetrofitUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/java/vn/edu/usth/codeme/view/adapter/StatusAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/java/vn/edu/usth/codeme/view/authen/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/java/vn/edu/usth/codeme/view/authen/RegisterActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/java/vn/edu/usth/codeme/view/home/HomeActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/java/vn/edu/usth/codeme/view/home/adapter/ViewPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/java/vn/edu/usth/codeme/view/home/tab_chat/ChatFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/java/vn/edu/usth/codeme/view/home/tab_home/HomeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/java/vn/edu/usth/codeme/view/home/tab_menu/MenuFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/java/vn/edu/usth/codeme/view/home/tab_youtube/YoutubeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/res/drawable-v24/app_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/res/drawable-v24/botron_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/res/drawable-v24/ic_arrow_right_circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/res/drawable/custom_edittext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/res/layout/fragment_chat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/res/layout/fragment_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/res/layout/fragment_youtube.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SocialNetworking/app/src/main/res/layout/item_status.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2018-2019_p001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3 - Cốc Cốc.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adobe/Adobe After Effects CC 2019.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adobe/Adobe Audition CC - Shortcut.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adobe/Adobe Photoshop CC 2019.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Adobe/Adobe Premiere Pro CC 2019.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/androidTest/java/vn/edu/usth/socialnetworking/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/java/vn/edu/usth/socialnetworking/HomeActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/java/vn/edu/usth/socialnetworking/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/java/vn/edu/usth/socialnetworking/SignInActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/java/vn/edu/usth/socialnetworking/SignUpActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/drawable-hdpi/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/drawable-xhdpi/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/drawable-xxhdpi/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/drawable-xxxhdpi/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/drawable/ic_chevron_right_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/drawable/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/layout/activity_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/layout/activity_sign_in.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/layout/activity_sign_up.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/app/src/test/java/vn/edu/usth/socialnetworking/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Atom.lnk" beforeDir="false" afterPath="$PROJECT_DIR$/../Atom.lnk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeBlocks.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev-C++.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Disk Drill.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dropbox.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excel 2016.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FPlus.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GitHub Desktop.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/20180703_182603.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/ADS_NGUYENTRACTHANH_Bi8170/finalexam/finalexam.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/ADS_NGUYENTRACTHANH_Bi8170/finalexam/finalexam.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/ADS_NGUYENTRACTHANH_Bi8170/finalexam/finalexam.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/ADS_NGUYENTRACTHANH_Bi8170/finalexam/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/ADS_NGUYENTRACTHANH_Bi8170/finalexam/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/ADS_NGUYENTRACTHANH_Bi8170/finalexam/obj/Debug/problem1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/ADS_NGUYENTRACTHANH_Bi8170/finalexam/problem1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/ADS_NGUYENTRACTHANH_Bi8170/finalexam/problem1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/ADS_NGUYENTRACTHANH_Bi8170/finalexam/problem1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/NGUYENTRACTHANH - USTHBI8-170 - TT1 (1).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/NGUYENTRACTHANH - USTHBI8-170 - TT1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/NguyenTacThanh- Bi8-170 -TT4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/NguyenTacThanh- Bi8-170 -TT4/Ex1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/NguyenTacThanh- Bi8-170 -TT4/Ex2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/NguyenTacThanh- Bi8-170 -TT4/Ex3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/NguyenTracThanh - B8-170 - TT3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/NguyenTracThanh - B8-170 - TT3/Ex1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/NguyenTracThanh - B8-170 - TT3/Ex1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/NguyenTracThanh - B8-170 - TT3/Ex1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/NguyenTracThanh - B8-170 - TT3/Ex2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/NguyenTracThanh - B8-170 - TT3/Ex3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/NguyenTracThanh - BI8-170 - TT2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/NguyenTracThanh - BI8-170 - TT2/Ex1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/NguyenTracThanh - BI8-170 - TT2/Ex2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/NguyenTracThanh - Bi8-170 - TT5.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/NguyenTracThanh - Bi8-170 - TT5/EX1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/NguyenTracThanh - Bi8-170 - TT5/EX2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/Nguyễn Trác Thành- Bi8170-TT6.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS-Lab/Nguyễn Trác Thành- Bi8170-TT6/Ex.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS_NGUYENTRACTHANH_Bi8170.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS_NGUYENTRACTHANH_Bi8170/DiscreteMath/DiscreteMath.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS_NGUYENTRACTHANH_Bi8170/DiscreteMath/DiscreteMath.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS_NGUYENTRACTHANH_Bi8170/DiscreteMath/DiscreteMath.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS_NGUYENTRACTHANH_Bi8170/DiscreteMath/Prob1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS_NGUYENTRACTHANH_Bi8170/DiscreteMath/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS_NGUYENTRACTHANH_Bi8170/DiscreteMath/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/ADS_NGUYENTRACTHANH_Bi8170/problem1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/CA/2.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/CA/Mars4_5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/CA/cpy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/CA/ex2_quiz2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/CA/fact" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/CA/fact2.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/CA/factt.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/CA/mips1.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/CA/sum_CA.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/CA/test1.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/GIT/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/GIT/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/GIT/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/GIT/Untitled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/Group 6_FinalOOP.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/Group 6_FinalOOP/FinalOOP_Application/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/Group 6_FinalOOP/FinalOOP_Application/Finaloop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/Group 6_FinalOOP/Power Point/1.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/Group 6_FinalOOP/Power Point/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/Group 6_FinalOOP/Power Point/9u7v.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/Group 6_FinalOOP/Power Point/Untitled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/Group 6_FinalOOP/Power Point/Untitled3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/Group 6_FinalOOP/Power Point/Untitlede.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/Group 6_FinalOOP/Power Point/finaloop.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/Group 6_FinalOOP/Power Point/maxresdefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/Group 6_FinalOOP/Power Point/very-interesting.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/MATLAB/Nguyễn Trác Thành - ICT - USTHBi8-170.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/MATLAB/Nguyễn Trác Thành - ICT - USTHBi8-170/HW1.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/MATLAB/Nguyễn Trác Thành - ICT - USTHBi8-170/HW2.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/MATLAB/Nguyễn Trác Thành - ICT - USTHBi8-170/f_quad.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/MATLAB/Nguyễn Trác Thành - ICT - USTHBi8-170/f_root.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/Matlab_ICT_NguyenTracThanh_USTHBi8170.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/Matlab_ICT_NguyenTracThanh_USTHBi8170/EX1_ICT_NguyenTracThanh.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/Matlab_ICT_NguyenTracThanh_USTHBi8170/EX2_ICT_NguyenTracThanh.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/New folder (2)/Final exam_2018_Solution.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/New folder (2)/cong-thuc-vat-ly-dai-cuong-ii-vu-tien-lam-vlkt.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/New folder (2)/dethi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/New folder/EX1_ICT_NguyenTracThanh.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/New folder/EX2_ICT_NguyenTracThanh.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/New folder/ex1.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/New folder/f.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/34. hoa_hoc_huu_co_gs_ts_dang_nhu_tai_gs_pts_tran_quoc_son_302_trang_3416.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/34880749_969567416557423_911506186082189312_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/35052170_969567429890755_949799650636857344_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/35517474_2047169952212591_8354598653653942272_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/35522472_2047170035545916_1245212418993291264_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/35553334_2047169428879310_8327126320546840576_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/35628433_2047170052212581_9116436800112427008_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/Cheat sheet preview.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/ICT/1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/ICT/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/ICT/2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/ICT/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/ICT/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/ICT/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/ICT/`.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/bang-he-thong-tuan-hoan-hoa-hoc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/final/orchem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/midterm S&amp;S/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICT/midterm S&amp;S/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KMSAuto Lite Portable/KMSAutoLite.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KMSAuto Lite Portable/readme_bg.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KMSAuto Lite Portable/readme_cn.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KMSAuto Lite Portable/readme_en.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KMSAuto Lite Portable/readme_ru.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Microsoft Edge.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PUBG Lite.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PowerPoint 2016.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tencent Gaming Buddy.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../USTH-SE-2019" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Untitled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Update FPlus.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Word 2016.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zalo.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../de-thi-thu-vao-lop-10-truong-thcs-yen-trung-ha-noi.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../desktop.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finalSE.github.io" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/54378989_653272875107782_5980671337532751872_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/54522777_653272848441118_4188779782999113728_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/54522859_653272835107786_1846107162934247424_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/54523729_653273028441100_4044291697272684544_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/54524374_653273145107755_5198947088766861312_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/54525689_653273045107765_9086016337028841472_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/54728555_653273248441078_5117339677895950336_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/54730689_653272965107773_2376950822773719040_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/54731303_653273051774431_7992783474698223616_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/54799964_653272908441112_8891073346330951680_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/55465033_653272935107776_9080271779615735808_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/55549641_653273101774426_7361339414359834624_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/55576684_653273211774415_2644077550699020288_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/55576805_653273001774436_4164864292698456064_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/55609028_653273198441083_4185882797493190656_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/55625728_653272825107787_3700869608387903488_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/55661632_653273231774413_4429081871770451968_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/55711585_653273165107753_2006314807489200128_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/55717493_653273128441090_5360889577986850816_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/55726448_653272898441113_8416660213821603840_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/55826163_653272988441104_625465023480725504_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/55914186_653272951774441_9217179110625771520_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/55917935_653273078441095_3422469411649355776_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/55963185_653273185107751_51615284875755520_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/56252771_653273018441101_1895498848751583232_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/56275919_653273111774425_667261046750183424_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm SE/Untitled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nguyentracthanh.github.io" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/android/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-583" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__android_4_1_1_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__appengine_api_1_0_sdk_1_9_38.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__appengine_api_labs_1_9_38.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__appengine_api_stubs_1_9_38.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__appengine_testing_1_9_38.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__bsh_2_0b4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_1_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__commons_math3_3_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__guava_19_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__hamcrest_core_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__httpclient_4_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__httpcore_4_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__jackson_core_2_7_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__jcommander_1_48.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__jmh_core_1_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__jmh_generator_annprocess_1_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__jopt_simple_4_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__json_20080701.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__mockito_core_1_10_19.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__objenesis_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__okhttp_2_7_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__okhttp_3_5_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__okio_1_11_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__opengl_api_gl1_1_android_2_1_r1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__servlet_api_2_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__testng_6_9_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__xmlParserAPIs_2_6_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__xpp3_1_1_4c.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dropbox-sdk-java-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox-sdk-java-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox-sdk-java-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox-sdk-java-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dropbox-sdk-java-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox-sdk-java-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox-sdk-java-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dropbox-sdk-java-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox-sdk-java-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox-sdk-java-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox-sdk-java-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox-sdk-java-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox-sdk-java-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox-sdk-java-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox-sdk-java-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox-sdk-java-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox-sdk-java-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox-sdk-java-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox-sdk-java-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox-sdk-java-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox-sdk-java-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox-sdk-java-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dropbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox-sdk-java-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox-sdk-java-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dropbox" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox-sdk-java-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox-sdk-java-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dropbox" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox-sdk-java-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox-sdk-java-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dropbox" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox-sdk-java-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox-sdk-java-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox-sdk-java-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox-sdk-java-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox-sdk-java-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox-sdk-java-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox-sdk-java-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox-sdk-java-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dropbox-sdk-java-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dropbox-sdk-java-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a19fad5-043e-4cfa-b10e-67806714ff81" name="Default Changelist" comment="" />
+      <created>1577382906921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577382906921</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32980332" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.32872504" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Codota" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/examples/android/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-583" />
+      </provider>
+    </entry>
+  </component>
+</project>
